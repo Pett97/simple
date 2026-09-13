@@ -24,7 +24,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.dev
-      container_name: simple-web
+    container_name: simple-web
     command: bin/rails server -b 0.0.0.0
     environment:
       RAILS_ENV: development
